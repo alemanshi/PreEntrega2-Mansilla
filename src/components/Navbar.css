@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+ul.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+ul.menu li {
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color:#008855;
+  color: #000000; 
+  font-weight: bold;
+}
+
+ul.menu li a {
+  color: #000000; 
+  text-decoration: none; 
+}
+
+ul.menu li:hover {
+  background-color: #e97807;
+}
